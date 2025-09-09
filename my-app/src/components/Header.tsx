@@ -29,11 +29,10 @@ export default function Header({ lang, setLang }: HeaderProps) {
   }, []);
 
   return (
-    <header
-      className={`fixed top-0 left-0 w-full px-6 md:px-12 py-4 flex justify-between items-center text-white z-50 
-                 transition-all duration-300 ease-in-out backdrop-blur-md 
-                 ${scrolled ? "bg-black bg-opacity-80 shadow-lg" : "bg-transparent"}`}
-    >
+   <header
+        className="fixed top-0 left-0 w-full px-6 md:px-12 py-4 flex justify-between items-center text-white z-50 
+                    backdrop-blur-md bg-transparent"
+        >
       {/* LOGO / NOMBRE */}
       <div className="text-2xl md:text-3xl font-bold tracking-wide cursor-default drop-shadow-lg">
         {lang === "es" ? "Valentina Amaya" : "Valentina Amaya"}

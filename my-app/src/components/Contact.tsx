@@ -119,13 +119,13 @@ export default function Contact({ lang }: ContactProps) {
             ></textarea>
           </div>
 
-          <button
+            <button
             type="submit"
-            className="w-full bg-amber-500 text-gray-900 font-bold py-3 px-4 rounded-lg 
-                       hover:bg-amber-600 transition duration-300 focus:outline-none focus:ring-2 focus:ring-amber-500"
-          >
-            {content.button}
-          </button>
+            className="w-full bg-[#F4E6CB] text-gray-900 font-bold py-3 px-4 rounded-lg 
+                        hover:bg-[#D8C7B0] transition duration-300 focus:outline-none focus:ring-2 focus:ring-[#F4E6CB]"
+            >
+                    {content.button}
+        </button>
         </form>
       </div>
     </section>
